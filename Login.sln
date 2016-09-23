@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{E8939C8D-7888-4C39-8BB8-70426D5235D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfiguracionBase", "..\..\Clases\Guardar Configuracion\ConfiguracionBase\ConfiguracionBase.csproj", "{9815747E-9923-4E7A-9CEA-FAC0C810E414}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8939C8D-7888-4C39-8BB8-70426D5235D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8939C8D-7888-4C39-8BB8-70426D5235D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8939C8D-7888-4C39-8BB8-70426D5235D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8939C8D-7888-4C39-8BB8-70426D5235D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9815747E-9923-4E7A-9CEA-FAC0C810E414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9815747E-9923-4E7A-9CEA-FAC0C810E414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9815747E-9923-4E7A-9CEA-FAC0C810E414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9815747E-9923-4E7A-9CEA-FAC0C810E414}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
