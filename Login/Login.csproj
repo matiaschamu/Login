@@ -33,6 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Config, Version=1.0.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BibliotecaMaf.Clases.ConfiguracionBase.ConfiguracionBase.1.0.0.6\lib\Config.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Rutinas, Version=1.0.0.3, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BibliotecaMaf.Clases.Rutinas.Utilidades.1.0.0.3\lib\Rutinas.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -101,13 +109,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="user2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RefTerceros\Configuracion\ConfiguracionBase\ConfiguracionBase.csproj">
-      <Project>{9815747e-9923-4e7a-9cea-fac0c810e414}</Project>
-      <Name>ConfiguracionBase</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
