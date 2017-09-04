@@ -37,8 +37,8 @@
       <HintPath>..\packages\BibliotecaMaf.Clases.ConfiguracionBase.ConfiguracionBase.1.0.0.6\lib\Config.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Rutinas, Version=1.0.0.3, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\BibliotecaMaf.Clases.Rutinas.Utilidades.1.0.0.3\lib\Rutinas.dll</HintPath>
+    <Reference Include="Rutinas, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BibliotecaMaf.Clases.Rutinas.Utilidades.1.0.0.4\lib\Rutinas.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
